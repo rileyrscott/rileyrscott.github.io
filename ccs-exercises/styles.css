@@ -1,3 +1,33 @@
+h1 {
+color: pink;
+font-family: verdana;
+}
+  
 p {
   color:pink;
 }
+
+#id1 {
+color: pink;
+font-family: verdana;
+}
+
+#id2 {
+text-align: center;
+color: pink;
+}
+
+.bluev {
+color: pink;
+font-family: verdana;
+}
+.center {
+text-align: center;
+color: pink;
+}
+
+.bluev p {
+color: pink;
+font-family: verdana;
+}
+  
