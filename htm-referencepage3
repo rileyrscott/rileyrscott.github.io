@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <h1 class="center">HTML Reference Page</h1>
+  
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+
+<table style= "width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Start Tag/End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><a href="#h">Html</a></td>
+    <td>&lt;html&gt;</td>
+    <td> <p> &lt;html&gt; <br> &lt;body&gt; <br> &lt;p&gt; I Love ECS! &lt;/p&gt; <br> &lt;body&gt; <br> &lt;html&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#I">Head</a></td>
+    <td>&lt;head&gt;</td>
+    <td><p> &lt;head&gt; <br> &lt;title&gt; My Website &lt;/title&gt; <br> &lt;head&gt;</td>
+  </tr>
+     <tr>
+    <td><a href="#J">Title</a></td>
+    <td>&lt;tile&gt;</td>
+    <td><p> &lt;title&gt; Pineapplenet &lt;/title&gt; <br></td>
+  </tr>
+  <tr>
+    <td><a href="#K">Body</a></td>
+    <td>&lt;body&gt;</td>
+    <td><p> &lt;body&gt; <br> &lt;title&gt; This is so cool!!! &lt;/title&gt; <br> &lt;body&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#L">Headings</a></td>
+    <td>&lt;h1&gt;/&lt;h2&gt;, &lt;/h1&gt;/&lt;/h2&gt;</td>
+    <td><p> &lt;h1&gt; Define &lt;/h1&gt; </p></td>
+    </tr>
+     <tr>
+    <td><a href="#M">Paragraph</a></td>
+    <td>&lt;p&gt;,&lt;/p&gt;</td>
+    <td>&lt;p&gt; Example &lt;/p&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#N">Breaks</a></td>
+    <td>&lt;br&gt;</td>
+    <td>&lt;p&gt; This &lt;br&gt; is &lt;br&gt; spaced &lt;/p&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#P">Comments</a></td>
+    <td>&lt;!--,--&gt;</td>
+    <td>&lt;!-- This is secret and can't be viewed in the browser --&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#Q">Links</a></td>
+    <td>&lt;a href, &lt;/a&gt;</td>
+    <td>&lt;a href="http://bit.ly/2y2hrGc"&gt;Sling.gif &lt;/a&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#R">Images</a></td>
+    <td>&lt;img source=, &gt;</td>
+    <td>&lt;img src="http://bit.ly/2y2hrGc"></td>
+    </tr>
+     <tr>
+    <td><a href="#S">Lists</a></td>
+    <td>&lt;ul&gt;, &lt;/ul&gt; or &lt;ol&gt;, &lt;li&gt; </td>
+    <td> &lt;ul&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;/ul&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#T">Tables</a></td>
+    <td>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;
+</td>
+    <td>&lt;table&gt; <br> &lt;tr&gt; <br>  &lt;th&gt;Monday&lt;/th&gt; <br>  &lt;th&gt;Tuesday&lt;/th&gt; <br> &lt;/tr&gt; <br> &lt;tr&gt; <br> &lt;td&gt;3pm&lt;/td&gt; <br> &lt;td&gt;10 books&lt;/td&gt; <br> &lt;tr&gt; <br> &lt;td&gt;4pm&lt;/td&gt; <br> &lt;td&gt;11 books&lt;/td&gt; <br> &lt;/tr&gt; <br> &lt;table&gt;</td>
+    </tr>
+     <tr>
+    <td><a href="#U">Blocks</a></td>
+    <td>&lt;div&gt;, &lt;/div&gt;</td>
+    <td> &lt;div&gt;This is&lt;/div&gt; <br> &lt;div&gt;a website&lt;/div&gt;</td>
+</table>
+
+
+<hr>
+
+<a name="h"></a>
+<h1 class="center">HTML</h1>
+
+ <p  class="center">Description</p>
+ <p>The main code that holds the inputs and outputs of a website. </p>
+ <p  class="center"> Syntax</p>
+ <p> Start Tag: &lt;html&gt; <br> Content: Whole page <br> End Tag: &lt;html&gt; </p>
+ <p  class="center">Example</p>
+  <div class= "example">
+ <p> &lt;html&gt; <br> &lt;body&gt; <br> &lt;p&gt; I Love ECS! &lt;/p&gt; <br> &lt;body&gt; <br> &lt;html&gt;
+ </div>
+ <p  class="center">Display</p>
+  <p> I Love ECS! </p>
+
+<hr>
+
+<a name="I"></a>
+<h1 class="center">Head</h1>
+
+<p  class="center">Description</p>
+ <p> This element can include a title for the document, scripts, styles, meta information, and more, it formats all heads. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;head&gt; <br> Content: Desired Text <br> End Tag: &lt;head&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;head&gt; <br> &lt;title&gt; My Website &lt;/title&gt; <br> &lt;head&gt;
+ </div>
+ <p  class="center">Display</p>
+  <p> My Website </p>
+
+<hr>
+
+<a name="J"></a>
+ <h1 class="center">Title</h1>
+
+<p  class="center">Description</p>
+ <p> This element is used to describe the content and theme of a website. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;tile&gt; <br> Content: Desired Text <br> End Tag: &lt;title&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;title&gt; Pineapplenet &lt;/title&gt; <br>
+ </div>
+ <p  class="center">Display:</p>
+  <p> Pineapplenet </p>
+  
+<hr>
+ 
+<a name="K"></a> 
+ <h1 class="center">Body</h1>
+
+<p  class="center">Description</p>
+ <p> This element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, and more. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;body&gt; <br> Content: Whole Page <br> End Tag: &lt;bodyd&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;body&gt; <br> &lt;title&gt; This is so cool!!! &lt;/title&gt; <br> &lt;body&gt;
+ </div>
+ <p  class="center">Display</p>
+  <p> This is so cool!!! </p>
+
+<hr>
+
+<a name="L"></a>
+ <h1 class="center">Headings</h1>
+
+<p  class="center">Description</p>
+ <p> Headings is used to make bigger/bolder titles. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;h1 or h2&gt; <br> Content: Desired Text <br> End Tag: &lt;/h1 or /h2&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;h1&gt; Define &lt;/h1&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+  <h2> Define </h2>
+  
+<hr>
+
+<a name="M"></a> 
+ <h1 class="center">Paragraph</h1>
+
+<p  class="center">Description</p>
+ <r> This element represents a paragraph of a text, this is a block level element. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;p&gt; <br> Content: Desired Text <br> End Tag: &lt;/p&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;p&gt; This website was assigned and done by Riley Scott. It took some crucial time out of his precious and desired weekend. &lt;/p&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+  <p> This website was assigned and done by Riley Scott. It took some crucial time out of his precious and desired weekend. </p>
+
+<hr>
+
+<a name="N"></a> 
+ <h1 class="center">Breaks</h1>
+
+<p  class="center">Description</p>
+ <p> This element and tag will insert a line break. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;br&gt; <br> Content: Desired Text <br> End Tag: &lt;br&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;p&gt; This &lt;br&gt; is &lt;br&gt; spaced &lt;/p&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+ <p> This <br> is <br> spaced </p>
+ 
+ <hr>
+ 
+ <a name="O"></a> 
+ <h1 class="center">Lines</h1>
+
+<p  class="center">Description</p>
+ <p> This element and tag will insert a line in a desired location. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;hr&gt; <br> Content: Line <br> End Tag: &lt;hr&gt; </p>
+ <p  class="center">Example</p>
+<div class= "example">
+ <p> &lt;hr&gt; &lt;br&gt; &lt;hr&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+<hr> <br> <hr>
+
+<hr>
+
+<a name="P"></a> 
+ <h1 class="center">Comments</h1>
+
+ <p class="center">Description</p>
+ <p> This element is used to add a comment in html. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;!-- <br> Content: Desired Text <br> End Tag: --&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;!-- This is secret and can't be viewed in the browser --&gt;</p>
+ </div>
+ <p  class="center">Display</p>
+ <p> This is secret and can't be viewed in the browser </p>
+ 
+ <hr>
+ 
+ <a name="Q"></a> 
+ <h1 class="center">Links</h1>
+
+<p  class="center">Description</p>
+ <p> This element is used to provide a clickable link to a desired location or other website. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;a href <br> Content: Desired Link <br> End Tag: &lt;/a&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;a href="http://bit.ly/2y2hrGc"&gt;Sling.gif &lt;/a&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+<a href="http://bit.ly/2y2hrGc">Sling.gif</a>
+
+<hr>
+
+ <a name="R"></a> 
+  <h1 class="center">Images</h1>
+
+<p  class="center">Description</p>
+ <p> This element is used to incorporate images into an html website. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;img source= <br> Content: url <br> End Tag: &gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;img src="http://bit.ly/2y2hrGc"> </p>
+ </div>
+ <p  class="center">Display </p>
+
+ <img src="http://bit.ly/2y2hrGc">
+ 
+<hr>
+
+<a name="S"></a> 
+ <h1 class="center">Lists</h1>
+
+<p  class="center">Description</p>
+ <p> This element is used to make lists (varying in style and size) within an html website. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;ul&gt;<br> Content: &lt;li&gt; Desired Text &lt;/li&gt; <br> End Tag: &lt;/ul&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> &lt;ul&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;li&gt;Desired Text&lt;/li&gt; <br> &lt;/ul&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+ <ul>
+  <li>Desired Text</li>
+  <li>Desired Text</li>
+  <li>Desired Text</li>
+  <li>Desired Text</li>
+</ul>
+
+<hr>
+
+<a name="T"></a> 
+<h1 class="center">Tables</h1>
+
+<p  class="center">Description</p>
+ <p> This is used to make tables, the HTML table consists of the &lt;table&gt; element and one or more &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; elements, it can also vary in appearance. </p>
+ <p  class="center">Syntax</p>
+ <p> Start Tag: &lt;table&gt; <br> Content: Desired Text with &lt;tr&gt;, &lt;th&gt;, &lt;td&gt; <br> End Tag: &lt;table&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p  &lt;table&gt; <br> &lt;tr&gt; <br>  &lt;th&gt;Monday&lt;/th&gt; <br>  &lt;th&gt;Tuesday&lt;/th&gt; <br> &lt;/tr&gt; <br> &lt;tr&gt; <br> &lt;td&gt;3pm&lt;/td&gt; <br> &lt;td&gt;10 books&lt;/td&gt; <br> &lt;tr&gt; <br> &lt;td&gt;4pm&lt;/td&gt; <br> &lt;td&gt;11 books&lt;/td&gt; <br> &lt;/tr&gt; <br> &lt;table&gt; </p>
+ </div>
+ <p  class="center">Display</p>
+  
+  <table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+  </tr>
+  <tr>
+    <td>3pm</td>
+    <td>10 books</td>
+  </tr>
+  <tr>
+    <td>4pm</td>
+    <td>11 books</td>
+  </tr>
+</table>
+
+<hr>
+
+<a name="U"></a> 
+ <h1 class="center">Blocks</h1>
+
+ <p  class="center">Description</p>
+ <p> class="center">It is a block-level element that is used to contain and display the code in html. </p>
+ <p  class="center">Syntax</p>
+ <p> class="center"> Start Tag: &lt;div&gt; <br> Content: Text <br> End Tag: &lt;/div&gt; </p>
+ <p  class="center">Example</p>
+ <div class= "example">
+ <p> class="center"> &lt;div&gt;This is&lt;/div&gt; <br> &lt;div&gt;a website&lt;/div&gt;
+ </div>
+ <p  class="center">Display</p>
+  <div>This is</div>
+<div> class="center">a website</div>
+
+<hr>
