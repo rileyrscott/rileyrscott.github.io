@@ -1,0 +1,107 @@
+body {
+  font-family: Ariel, Sans-Serif;
+}
+
+h2 {
+  background-color: blue;
+  color:white;
+  padding-left: 20px;
+}
+
+.tablestyle {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablestyle table, td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.tablestyle th {
+  font-size: 24px;
+}
+
+.examplestyle p {
+  margin-left: 30px;
+  font-family: "Courier New", Sans-Serif;
+}
+
+
+h1 {
+  border: 4px lightgray;
+}
+
+
+.example {
+  box-shadow: 5px 5px 5px #808080;
+  width:auto;
+  height:auto;
+  padding: 10px;
+  background-color: #DCDCDC;
+}
+
+
+.example p {
+  background-color: white;
+  border-left: 3px solid deepskyblue;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Courier New";
+}body {
+  font-family: Ariel, Sans-Serif;
+}
+
+h2 {
+  background-color: blue;
+  color:white;
+  padding-left: 20px;
+}
+
+.tablestyle {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablestyle table, td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.tablestyle th {
+  font-size: 24px;
+}
+
+.examplestyle p {
+  margin-left: 30px;
+  font-family: "Courier New", Sans-Serif;
+}
+
+
+h1 {
+  border: 4px lightgray;
+}
+
+
+.example {
+  box-shadow: 5px 5px 5px #808080;
+  width:auto;
+  height:auto;
+  padding: 10px;
+  background-color: #DCDCDC;
+}
+
+
+.example p {
+  background-color: white;
+  border-left: 3px solid deepskyblue;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Courier New";
+}
