@@ -1,0 +1,93 @@
+.center {
+text-align: center;}
+
+.Roman {
+  font-family: "Times New Roman", Times;
+}
+
+.serif {
+  font-family: "Sans-Serif";
+}
+
+body { background-color: lightgrey; 
+font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black
+;}
+
+h1 {
+    border: 4px solid white;
+}
+
+.tablestyle {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+p {
+  text-align:center;
+  font-family:Arial;
+  color: black;
+}
+
+.example {
+  box-shadow: 5px 5px 5px #505050;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: darkgrey;
+}
+
+.example p {
+  background-color: white;
+  border-left: 3px solid #FFA07A;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Courier New";
+}.center {
+text-align: center;}
+
+.Roman {
+  font-family: "Times New Roman", Times;
+}
+
+.serif {
+  font-family: "Sans-Serif";
+}
+
+body { background-color: lightgrey; 
+font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black
+;}
+
+h1 {
+    border: 4px solid white;
+}
+
+.tablestyle {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+p {
+  text-align:center;
+  font-family:Arial;
+  color: black;
+}
+
+.example {
+  box-shadow: 5px 5px 5px #505050;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: darkgrey;
+}
+
+.example p {
+  background-color: white;
+  border-left: 3px solid #FFA07A;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: "Courier New";
+}
