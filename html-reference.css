@@ -10,8 +10,8 @@ text-align: center;}
 }
 
 body { background-color: lightgrey; 
-font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black
-;}
+font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black;
+}
 
 h1 {
     border: 4px solid white;
@@ -44,8 +44,11 @@ p {
   padding-bottom: 5px;
   padding-top: 5px;
   font-family: "Courier New";
-}.center {
-text-align: center;}
+}
+
+.center {
+text-align: center;
+}
 
 .Roman {
   font-family: "Times New Roman", Times;
@@ -56,8 +59,8 @@ text-align: center;}
 }
 
 body { background-color: lightgrey; 
-font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black
-;}
+font-family: "Sans-Serif", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Trebuchet MS; font-weight: 600; font-size: 14px; color: black;
+}
 
 h1 {
     border: 4px solid white;
